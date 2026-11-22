@@ -907,9 +907,6 @@ body {
     border: 1px solid #B7E4CE;
 }
 
-/* ============================================================================
-   Toast Notifications
-   ============================================================================ */
 .toast-container {
     position: fixed;
     bottom: 1.5rem;
@@ -955,10 +952,6 @@ body {
     from { opacity: 1; transform: translateX(0); max-height: 80px; margin-bottom: 0; }
     to   { opacity: 0; transform: translateX(28px); max-height: 0; margin-bottom: -0.5rem; }
 }
-
-/* ============================================================================
-   Modals
-   ============================================================================ */
 .modal-backdrop {
     position: fixed;
     inset: 0;
@@ -1059,9 +1052,6 @@ body {
 
 .checkbox-label input[type="checkbox"] { margin-top: 0.2rem; }
 
-/* ============================================================================
-   Loading Skeleton
-   ============================================================================ */
 .skeleton-line {
     display: inline-block;
     height: 1em;
@@ -1076,9 +1066,6 @@ body {
     to   { background-position: -200% 0; }
 }
 
-/* ============================================================================
-   Responsive Breakpoints
-   ============================================================================ */
 @media (max-width: 1024px) {
     .kpi-grid     { grid-template-columns: repeat(2, 1fr); }
     .kpi-grid-3   { grid-template-columns: repeat(3, 1fr); }
