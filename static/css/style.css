@@ -521,9 +521,6 @@ body {
 .recent-meta  { font-size: 0.78rem; color: var(--text-secondary); }
 .recent-amount { font-size: 0.925rem; font-weight: 700; white-space: nowrap; }
 
-/* ============================================================================
-   Forms, Inputs & Buttons
-   ============================================================================ */
 .form-page-wrapper { max-width: 640px; margin: 0 auto; }
 
 .tx-form { padding: 1.35rem; }
@@ -644,7 +641,7 @@ body {
     border-top: 1px solid var(--border-color);
 }
 
-/* Buttons */
+
 .btn {
     display: inline-flex;
     align-items: center;
@@ -738,9 +735,6 @@ body {
 .badge-expense { background-color: var(--expense-soft); color: var(--expense); }
 .badge-neutral { background-color: var(--bg-subtle); color: var(--text-secondary); }
 
-/* ============================================================================
-   Transaction History — Filter Bar & Table
-   ============================================================================ */
 .filter-card {
     padding: 1.15rem 1.35rem;
     margin-bottom: 1.25rem;
