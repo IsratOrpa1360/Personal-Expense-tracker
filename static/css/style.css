@@ -1,7 +1,3 @@
-/* ============================================================================
-   style.css — Modern Financial Dashboard Stylesheet
-   Font: Inter (Google Fonts)
-   ============================================================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
@@ -35,9 +31,6 @@
     --transition-smooth: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ============================================================================
-   Base Reset & Typography
-   ============================================================================ */
 *,
 *::before,
 *::after {
@@ -70,9 +63,6 @@ body {
 ::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--text-secondary); }
 
-/* ============================================================================
-   Header & Navigation
-   ============================================================================ */
 .app-header {
     background-color: var(--bg-card);
     border-bottom: 1px solid var(--border-color);
