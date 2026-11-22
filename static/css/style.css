@@ -812,9 +812,6 @@ body {
     color: var(--text-secondary);
 }
 
-/* ============================================================================
-   Monthly Reports Charts
-   ============================================================================ */
 .report-picker-group {
     display: flex;
     align-items: center;
@@ -841,9 +838,7 @@ body {
     align-items: center;
 }
 
-/* ============================================================================
-   Settings & Info List
-   ============================================================================ */
+/*Settings & Info List */
 .info-list {
     display: flex;
     flex-direction: column;
@@ -866,9 +861,7 @@ body {
 
 .danger-card { border-color: #F5C2C2; }
 
-/* ============================================================================
-   Empty States & Form Feedback
-   ============================================================================ */
+/* Empty States & Form Feedback */
 .empty-state {
     text-align: center;
     padding: 2rem 1rem;
