@@ -172,10 +172,6 @@ body {
     border-radius: 999px;
     letter-spacing: 0.01em;
 }
-
-/* ============================================================================
-   Main Container & View Sections
-   ============================================================================ */
 .main-container {
     max-width: 1200px;
     width: 100%;
@@ -220,9 +216,6 @@ body {
     margin-top: 0.15rem;
 }
 
-/* ============================================================================
-   Cards & Grid Layouts
-   ============================================================================ */
 .card {
     background-color: var(--bg-card);
     border: 1px solid var(--border-color);
@@ -365,9 +358,6 @@ body {
 .text-primary  { color: var(--primary)  !important; }
 .text-right    { text-align: right; }
 
-/* ============================================================================
-   Dashboard Overview Components
-   ============================================================================ */
 .comparison-bars {
     display: flex;
     flex-direction: column;
