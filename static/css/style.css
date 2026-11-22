@@ -1092,9 +1092,6 @@ body {
     .summary-Highlight-box { grid-template-columns: 1fr; }
 }
 
-/* ============================================================================
-   Reduced Motion
-   ============================================================================ */
 @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
