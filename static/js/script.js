@@ -348,9 +348,6 @@
         container.innerHTML = `<div class="recent-list">${rowsHtml}</div>`;
     }
 
-    // -------------------------------------------------------------------------
-    // Section B: Add Transaction
-    // -------------------------------------------------------------------------
     function validateTransactionFormFields({ type, amount, category, description, date }) {
         if (type !== "Income" && type !== "Expense")
             return "Please select a valid transaction type (Income or Expense).";
