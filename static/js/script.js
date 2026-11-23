@@ -125,9 +125,6 @@
         return payload;
     }
 
-    // -------------------------------------------------------------------------
-    // Navigation & View Switching
-    // -------------------------------------------------------------------------
     function switchView(targetView) {
         const views = {
             dashboard:        document.getElementById("view-dashboard"),
@@ -162,9 +159,6 @@
         }
     }
 
-    // -------------------------------------------------------------------------
-    // Category Dropdowns
-    // -------------------------------------------------------------------------
     function populateCategorySelect(selectEl, type, selectedValue = "") {
         if (!selectEl) return;
         const list = CATEGORIES[type] || CATEGORIES.Expense;
