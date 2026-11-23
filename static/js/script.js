@@ -34,9 +34,6 @@
         dashboardLoading: false
     };
 
-    // -------------------------------------------------------------------------
-    // Utility Helpers
-    // -------------------------------------------------------------------------
     function formatMoney(amount) {
         const num = Number(amount) || 0;
         const absFormatted = Math.abs(num).toLocaleString("en-US", {
@@ -74,10 +71,6 @@
             timer = setTimeout(() => fn.apply(this, args), wait);
         };
     }
-
-    // -------------------------------------------------------------------------
-    // Toast Notifications (animated)
-    // -------------------------------------------------------------------------
     function showToast(message, type = "success") {
         const container = document.getElementById("toast-container");
         if (!container) return;
