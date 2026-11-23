@@ -106,9 +106,6 @@
         el.className = `form-feedback ${type}`;
     }
 
-    // -------------------------------------------------------------------------
-    // API Helper
-    // -------------------------------------------------------------------------
     async function apiRequest(url, options = {}) {
         const response = await fetch(url, {
             headers: { "Content-Type": "application/json", ...(options.headers || {}) },
