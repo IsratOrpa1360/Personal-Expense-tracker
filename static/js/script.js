@@ -807,9 +807,6 @@
         if (!document.getElementById("clear-modal-backdrop").hidden)  closeClearModal();
     }
 
-    // -------------------------------------------------------------------------
-    // Event Listeners & Initialization
-    // -------------------------------------------------------------------------
     function initEventListeners() {
         // Navigation
         document.querySelectorAll(".nav-tab").forEach(btn => {
