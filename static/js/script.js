@@ -185,9 +185,6 @@
         if (categories.includes(previousVal)) filterCategory.value = previousVal;
     }
 
-    // -------------------------------------------------------------------------
-    // Dashboard Loading Skeleton
-    // -------------------------------------------------------------------------
     function setDashboardLoading(loading) {
         state.dashboardLoading = loading;
         const ids = [
