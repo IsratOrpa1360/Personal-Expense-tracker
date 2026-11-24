@@ -570,9 +570,6 @@
         }
     }
 
-    // -------------------------------------------------------------------------
-    // Section D: Monthly Reports & SVG Charts
-    // -------------------------------------------------------------------------
     async function loadMonthlyReport(month = "") {
         try {
             const query = month ? `?month=${encodeURIComponent(month)}` : "";
