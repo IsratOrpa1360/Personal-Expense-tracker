@@ -711,10 +711,6 @@
                 <div class="category-list">${legendHtml}</div>
             </div>`;
     }
-
-    // -------------------------------------------------------------------------
-    // Section E: Settings
-    // -------------------------------------------------------------------------
     async function loadSettings() {
         try {
             const res  = await apiRequest("/api/settings");
@@ -804,9 +800,6 @@
         }
     }
 
-    // -------------------------------------------------------------------------
-    // Escape key — close any open modal
-    // -------------------------------------------------------------------------
     function handleEscapeKey(e) {
         if (e.key !== "Escape") return;
         if (!document.getElementById("edit-modal-backdrop").hidden)   closeEditModal();
