@@ -394,9 +394,6 @@
         }
     }
 
-    // -------------------------------------------------------------------------
-    // Section C: Transaction History, Filters, Edit & Delete
-    // -------------------------------------------------------------------------
     async function loadTransactions() {
         const search    = document.getElementById("filter-search").value.trim();
         const type      = document.getElementById("filter-type").value;
